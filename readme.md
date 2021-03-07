@@ -58,3 +58,15 @@ querySelectorAll() can be used for any DOM element. It doesn't have to be docume
 [] square brackets refer to object properties.
 
 ! means 'no'. Like !obj[item] means 'no object item'.
+
+### 05 - Flex Panel Gallery
+
+[CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors), in particular the child combinator >. I want more practice using combinators.
+
+[CSS Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes), in particular :first-child and :last-child. I've seen these before, but I've never written them myself.
+
+Flex numbers. {flex: 1} on child elements means that all flex children will take up the same amount of space. Equal distribution. {flex: 5} on a particular child will make that element grow bigger.
+
+Learned about setting events to trigger after transitionend in Javascript, and how to use includes() to handle browser differences. For example, Safari will note that {flex} transitioned whereas other browsers will say that {flex-grow} was transitioned. 
+
+Also learned that referencing functions with () means they will be triggered on page load, whereas functions referenced without () means that they will be triggered when the particular event they are referenced in is triggered. For example, use element.addEventListener('click', function) rather element.addEventListener('click', function()).
