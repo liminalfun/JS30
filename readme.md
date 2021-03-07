@@ -32,3 +32,29 @@ A data-attribute is an HTML attribute that you have made up. You just have to pr
 For fallbacks, you can use || '' meaning 'or nothing'. || = or, empty quotes = nothing.
 
 You can scope variables in CSS by defining them below the root.
+
+### 04  - Array Cardio Day 1
+
+Really learned a lot in this lesson! I've felt uncertain when I've encountered these in past projects, and will need to practice each of these concepts a few more times until I feel like get them enough to use in my own projects.
+
+Console.table() for showing a table.
+
+Array.prototype.filter() can bring in a full array (i.e. 10 objects) and return only certain items (i.e. 2 objects). 
+
+Array.prototype.map() always returns the same number of items called, but rearranges them (i.e first and last names).
+
+Array.prototype.sort() works by repeatedly sorting two items and bubbling them by giving each pair binary values.
+
+[Ternary operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) use ? :  as shorthand for conditional logic
+
+Array.prototype.reduce() adds things up, kinda. It starts with a blank object, sees if there is a value for it (sometimes requires to be defined as zero), and increments when looped over.
+
+ It was used in this exercise to calculate the number of years each inventor lived, and then sort them by age. It was also used to calculate the sums of each type of transportation listed in an array.
+
+querySelectorAll() can be used for any DOM element. It doesn't have to be document, it can be used to look inside any existing element. It returns a NodeList, not an array. 
+
+++ increment operator increases an integer value by one.
+
+[] square brackets refer to object properties.
+
+! means 'no'. Like !obj[item] means 'no object item'.
