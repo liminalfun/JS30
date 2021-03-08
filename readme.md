@@ -70,3 +70,20 @@ Flex numbers. {flex: 1} on child elements means that all flex children will take
 Learned about setting events to trigger after transitionend in Javascript, and how to use includes() to handle browser differences. For example, Safari will note that {flex} transitioned whereas other browsers will say that {flex-grow} was transitioned. 
 
 Also learned that referencing functions with () means they will be triggered on page load, whereas functions referenced without () means that they will be triggered when the particular event they are referenced in is triggered. For example, use element.addEventListener('click', function) rather element.addEventListener('click', function()).
+
+### 06 - Ajax Type Ahead
+
+fetch() is a browser api for calling data from a different source. It can also be done with jquery or a library like axios. Fetch returns a "promise". Promise isn't the data itself, but it's saying that something will eventually come back from the data that has been fetched. 
+
+Work with promises by using .then(), for example fetch(dataset).then(blob). Blob is literally a blob, because the browser doesn't know what kind of data has been fetched. The blob has to be converted from the raw data into whatever kind of data it is first (i.e. JSON).
+
+ES6 Spreading to push an array into a variable (i.e. ciites.push(...data))
+
+How to put a variable into a regular expression using RegExp()!! 'g' means global, 'i' means insensitive to case. 
+
+`const regex = new RegExp(wordToMatch, 'gi');`
+
+Get your data first, get those functionalities, and then connect it to event listeners.
+
+Adding .join('') after map() will turn an array with multiple items into one string.
+
