@@ -87,3 +87,16 @@ Get your data first, get those functionalities, and then connect it to event lis
 
 Adding .join('') after map() will turn an array with multiple items into one string.
 
+### 07 - Array Cardio Day 2
+
+- Array.prototype.some() will check if at least one thing in the array meets what you're looking for.
+
+- Array.prototype.every() will check if all things in the array meet your criteria.
+
+- Array.prototype.find() will return to you the first item that it finds in the array.
+
+- Array.prototype.findIndex() will find where something is inside of the array. For example, finding a location to delete it.
+
+- Putting curly brackets around your variable in console.log will give you the value of that variable. e.g. console.log({isAdult})
+
+I did the last two exercises correctly on my own (except for the delete part), and it felt really good!
