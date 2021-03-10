@@ -123,3 +123,13 @@ This is something I've wanted to know for a long time, but couldn't figure out w
 - Flag thing for making something false and then true and then false.
 
 Also added some things on my own for fun! Like the background color, more hsl specificity, and a refresh button.
+
+### 09 - Dev Tools Domination
+
+- There is no difference between putting `onClick=function()`in the HTML element versus `element.addEventListener('click', function)`.
+
+- Learned lots of helpful console.methods(). I think console.groupCollapsed() will be really helpful for me.
+
+- *In Chrome Dev Tools*
+
+    - Right click element in inspector. Select 'Break On' > 'Attribute Modification'. This will open debug mode and show you exactly what's happening.
