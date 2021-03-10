@@ -100,3 +100,26 @@ Adding .join('') after map() will turn an array with multiple items into one str
 - Putting curly brackets around your variable in console.log will give you the value of that variable. e.g. console.log({isAdult})
 
 I did the last two exercises correctly on my own (except for the delete part), and it felt really good!
+
+### 08 – Fun with HTML Canvas
+
+Learned about canvases! All new things! Context was new, and I can learn about it on MDN. All of the other new bits (attributes?) are a part of the object and can be found in the console.
+
+#### ES6 trick, 'structuring an array' or declaring two variables at once:
+
+Without structuring an array:
+`lastX = e.offsetX;
+lastY = e.offsetY;`
+
+With structuring an array:
+`[lastX, lastY] = [e.offsetX, e.offsetY]`
+
+This is something I've wanted to know for a long time, but couldn't figure out what to search for!
+
+- [Mother-effing hsl()](https://mothereffinghsl.com/) - Hue, Saturation, Lightness, Alpha
+
+- [Global Composite Operator](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation) for blend modes
+
+- Flag thing for making something false and then true and then false.
+
+Also added some things on my own for fun! Like the background color, more hsl specificity, and a refresh button.
