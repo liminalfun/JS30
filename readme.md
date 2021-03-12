@@ -133,3 +133,18 @@ Also added some things on my own for fun! Like the background color, more hsl sp
 - *In Chrome Dev Tools*
 
     - Right click element in inspector. Select 'Break On' > 'Attribute Modification'. This will open debug mode and show you exactly what's happening.
+
+### 10 - Hold Shift and Check Checkboxes
+
+I repeated this exercise three times to remember how to do it, and I made it work for unchecking boxes as well.
+
+- 'click' event will fire even if you use your keyboard
+
+- 'let' rather than 'const' for variables that need to be reassigned (constantly)
+
+- Learned more about how to use Array.prototype.forEach() method
+
+- Learned about flags
+
+- Learned about checkboxes
+
