@@ -152,8 +152,16 @@ I repeated this exercise three times to remember how to do it, and I made it wor
 
 Hahahaha. I have been doing this for the past three months and feeling so overwhelmed. This will be a treat ;)
 
- Wrapping a string in parseFloat() converts it to a true number.
+Wrapping a string in parseFloat() converts it to a true number.
 
- += for adding to something
++= for adding to something
 
- Was really fun and helpful! I figured out the ~challenge~ of fullScreen mode, and also challenged myself to figure out keyboard controls (space + arrow keys) and it was really fun! By figuring it out, I mean referencing other tutorials lol, but it went really well!
+Was really fun and helpful! I figured out the ~challenge~ of fullScreen mode, and also challenged myself to figure out keyboard controls (space + arrow keys) and it was really fun! By figuring it out, I mean referencing other tutorials lol, but it went really well!
+
+### 12 - Key Sequence Detection
+
+Best part about this lesson was cornify_add(). Amazing.
+
+Learning key sequence detection was also really cool.
+
+### 13 - 
