@@ -148,3 +148,12 @@ I repeated this exercise three times to remember how to do it, and I made it wor
 
 - Learned about checkboxes
 
+### 11 - Custom HTML5 Video Player
+
+Hahahaha. I have been doing this for the past three months and feeling so overwhelmed. This will be a treat ;)
+
+ Wrapping a string in parseFloat() converts it to a true number.
+
+ += for adding to something
+
+ Was really fun and helpful! I figured out the ~challenge~ of fullScreen mode, and also challenged myself to figure out keyboard controls (space + arrow keys) and it was really fun! By figuring it out, I mean referencing other tutorials lol, but it went really well!
