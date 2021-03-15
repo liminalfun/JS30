@@ -173,3 +173,17 @@ Debounce your scroll functions !!!!!
 Learned lots about ScrollY 
 
 Tip: Stick any math or calculations into a variable with a name to help you understand it before putting it into your If statement. And use console.log(variable) to help understand them.
+
+### 14 - Object and Arrays - Reference VS Copy
+
+Fundamental to understanding how JavaScript works. Can be the source of a lot of bugs, because of misunderstanding about what a reference/copy is. Right now, pre-video, I have no idea what either are!
+
+If you update an array, it will always reference back. If you update a string, number, or boolean, it will not.
+
+Calling variable.slice() will make a copy. We usually call slice and pass through numbers, but calling slice() and passing nothing will return the entire array.
+
+A spread will take every item out of your iterable and put it into your containing array. 
+
+With objects, we use Object.assign({},  , {}) to create a blank object, fold in the existing object and use the third argument to fold in our own ones (without changing the initial object).
+
+Learned things that I didn't know I didn't know!
