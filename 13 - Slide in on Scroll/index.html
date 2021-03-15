@@ -43,6 +43,8 @@
   </div>
 
   <script>
+    // reduces number of times a function that's wrapped in it runs - v helpful when running something on scroll
+    // debounce functions can be found in most frameworks - i.e. lodash
     function debounce(func, wait = 20, immediate = true) {
       var timeout;
       return function() {
@@ -56,7 +58,29 @@
         timeout = setTimeout(later, wait);
         if (callNow) func.apply(context, args);
       };
-    }
+    };
+
+    const sliderImages = document.querySelectorAll('.slide-in');
+    function checkSlide(e) {
+      // recalculate each time to account for people resizing their window or the content changing
+      sliderImages.forEach(sliderImage => {
+        // halfway through the image
+        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+        // bottom of the image
+        const imageBottom = sliderImage.offsetTop + sliderImage.height;
+        const isHalfShown = slideInAt > sliderImage.offsetTop;
+        const isNotScrolledPast = window.scrollY < imageBottom;
+        if(isHalfShown && isNotScrolledPast) {
+          sliderImage.classList.add('active');
+        } else {
+          sliderImage.classList.remove('active');
+        }
+      });
+    };
+    
+    // when window is scrolled, run the function 
+    window.addEventListener('scroll', debounce(checkSlide));
+
 
   </script>
 

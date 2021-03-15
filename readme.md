@@ -164,4 +164,12 @@ Best part about this lesson was cornify_add(). Amazing.
 
 Learning key sequence detection was also really cool.
 
-### 13 - 
+### 13 - Slide in on Scroll
+
+Debounce your scroll functions !!!!!  
+
+- element.offsetTop means the distance from the top of the element to the top of the window
+
+Learned lots about ScrollY 
+
+Tip: Stick any math or calculations into a variable with a name to help you understand it before putting it into your If statement. And use console.log(variable) to help understand them.
