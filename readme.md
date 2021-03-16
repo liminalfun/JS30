@@ -187,3 +187,25 @@ A spread will take every item out of your iterable and put it into your containi
 With objects, we use Object.assign({},  , {}) to create a blank object, fold in the existing object and use the third argument to fold in our own ones (without changing the initial object).
 
 Learned things that I didn't know I didn't know!
+
+### 15 – LocalStorage and Event Delegation
+
+I really need to know this!! It's come up with 11-00.tv and Agora, but I haven't known how to do it.
+
+- You can make checkboxes appear however you want pretty easily with CSS
+
+- You can use ternary operators in HTML in JS by using ${}.
+
+How Local storage works  
+- You have a list in your browser called localStorage, and there's a list of things that have been saved to this domain on this browser.
+- We can set the items array into local storage when we run the populateList
+- Can only use strings (not objects). Must wrap in JSON.stringify(items)
+- Need to use Chrome DevTools for this
+
+Event Delegation is when we listen to something higher (parent) and check if the child element is what we want, because it could trigger on different things.
+
+Finished the three bonus challenges of:
+
+1 - clear list
+2 - check all
+3 - uncheck all
