@@ -209,3 +209,14 @@ Finished the three bonus challenges of:
 1 - clear list
 2 - check all
 3 - uncheck all
+
+
+### 16 - CSS Text Shadow Mouse Move Effect
+
+Learned that you can use offsetX and offsetY for mousemove values, but you have to normalize it for any nested divs.
+
+Also learned about ES6 Destructuring for constructing multiple variables at once.
+
+Things I'd like to understand more:
+- Fundamentals of what const and let are and why they work. like i know they are ways of declaring variables, and let is mutable but const is not. but i don't understand why and i'd like to.
+- Why do we pass (e) sometimes? what happens if we don't? What is (e)? What does it mean to pass variables? Why does it work? Why do some variables like e and i not have to be declared?
