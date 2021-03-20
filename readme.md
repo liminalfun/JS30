@@ -228,3 +228,13 @@ Fun & easy practice! Hardest/newest part was the reg-ex. Otherwise it was good a
 ### 18 - Tally String Times with Reduce
 
 The math went a little bit over my head and I could use some more practice, but I had fun and learned about reduce!
+
+### 19 - Webcam fun
+
+This day was both under and overwhelming lol
+
+-  https:// and localhost are considered 'secure origin' for video cam
+
+#### Workaround // createObjectURL() is deprecatated
+- On line 11 of scripts.js, the tuturial says to write `video.src = window.URL.createObjectURL(localMediaStream)` to change the object into a URL that the <video> src attribute can understand. However, this is no longer supported by browsers. Instead, you can connect the media stream directly by using the <video> srcObject attribute! `video.srcObject = localMediaStream`
+- Answer found via [stackoverflow](https://stackoverflow.com/questions/27120757/failed-to-execute-createobjecturl-on-url).
