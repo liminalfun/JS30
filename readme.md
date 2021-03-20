@@ -224,3 +224,7 @@ Things I'd like to understand more:
 ### 17 – Sorting Band Names without Articles
 
 Fun & easy practice! Hardest/newest part was the reg-ex. Otherwise it was good array practice and taught me how to use .innerHTML, .map() and .join() to put a list out into the HTML from JS.
+
+### 18 - Tally String Times with Reduce
+
+The math went a little bit over my head and I could use some more practice, but I had fun and learned about reduce!
