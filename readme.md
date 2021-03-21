@@ -238,3 +238,6 @@ This day was both under and overwhelming lol
 #### Workaround // createObjectURL() is deprecatated
 - On line 11 of scripts.js, the tuturial says to write `video.src = window.URL.createObjectURL(localMediaStream)` to change the object into a URL that the <video> src attribute can understand. However, this is no longer supported by browsers. Instead, you can connect the media stream directly by using the <video> srcObject attribute! `video.srcObject = localMediaStream`
 - Answer found via [stackoverflow](https://stackoverflow.com/questions/27120757/failed-to-execute-createobjecturl-on-url).
+
+### 20 - Native Speech Recognition
+
