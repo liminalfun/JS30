@@ -241,3 +241,22 @@ This day was both under and overwhelming lol
 
 ### 20 - Native Speech Recognition
 
+WOW! So fun
+
+### 21 - Geolocation based Speedometer and Compass
+
+Helpful! Learned some things. Was able to mostly figure it out on my own.
+
+Ran into a typeError where it wasn't asking for the location - turned out I put something in camelCase that wasn't supposed to be lol. Figured it out by checking against the finished file.
+
+Was helpful to use Simulator. I didn't know I could simulate speeds.
+
+### 22 - Follow Along Links
+
+Yes! Navigation! Something that applies to my work!
+
+window.scrollY is how far the user is down the page
+
+getBoundingClientRect() is how you get the height, width, and coordinates of an object
+
+
