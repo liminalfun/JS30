@@ -259,4 +259,12 @@ window.scrollY is how far the user is down the page
 
 getBoundingClientRect() is how you get the height, width, and coordinates of an object
 
+### 23 - Speech Synthesis
+
+- Why do we sometimes use "new" when declaring a const ?
+- Still don't understand the difference between var & const. We haven't used var at all and I don't know why
+
+Was fun & helpful! Had never done anything with speech synthesis before. 
+
+Learned about binding functions in event listeners and got more practice with using things like console.log(this.value, this.name), and array methods like .map(), .filter(), and .find() !
 
