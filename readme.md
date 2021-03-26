@@ -268,3 +268,18 @@ Was fun & helpful! Had never done anything with speech synthesis before.
 
 Learned about binding functions in event listeners and got more practice with using things like console.log(this.value, this.name), and array methods like .map(), .filter(), and .find() !
 
+### 24 – Stick Nav
+
+Learned about how to calculate offsets. Also transform for CSS animation.
+
+### 25 – Event Capture, Propogation, Bubbling, and Once
+
+Bubbling is the concept where the browser will figure out what you clicked on, but it will ripple all the way up through whatever that element is nested within.
+
+The browser will first do something called a 'capture', which means that when you click on an element, it will ripple from the top down. It captures all of those events, and then does something called 'bubble' where it goes from the bottom up. It fires off the click events from the bottom up.
+
+The third option in addEventListener, {capture: true} is false by default. When true, it will fire from the top down.
+
+Adding e.stopPropogation() to the function will stop the event from bubbling up.
+
+The option {once: true} means that it can only be clicked once. Helpful for store checkouts, where you only want someone to click something once.
