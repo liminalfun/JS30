@@ -289,3 +289,7 @@ The option {once: true} means that it can only be clicked once. Helpful for stor
 I feel ==== ambivalent !
 
 ### 27 - Click and Drag
+
+Helpful --- learned about using {} in console log to see object details.
+
+Also learned about mouse properties. I still want to just use libraries lol, but I have more of an understanding of how they work!
