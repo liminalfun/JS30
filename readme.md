@@ -268,7 +268,7 @@ Was fun & helpful! Had never done anything with speech synthesis before.
 
 Learned about binding functions in event listeners and got more practice with using things like console.log(this.value, this.name), and array methods like .map(), .filter(), and .find() !
 
-### 24 – Stick Nav
+### 24 – Sticky Nav
 
 Learned about how to calculate offsets. Also transform for CSS animation.
 
@@ -283,3 +283,9 @@ The third option in addEventListener, {capture: true} is false by default. When 
 Adding e.stopPropogation() to the function will stop the event from bubbling up.
 
 The option {once: true} means that it can only be clicked once. Helpful for store checkouts, where you only want someone to click something once.
+
+### 26 - Stripe Follow Along Nav
+
+I feel ==== ambivalent !
+
+### 27 - Click and Drag
