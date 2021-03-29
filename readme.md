@@ -293,3 +293,7 @@ I feel ==== ambivalent !
 Helpful --- learned about using {} in console log to see object details.
 
 Also learned about mouse properties. I still want to just use libraries lol, but I have more of an understanding of how they work!
+
+### 28 - Video Speed Controller UI
+
+Not sure if I would ever use this, but it is helpful to connect the dots and get more practice with using math to calculate offsets. Also helpful to get more practice for when and how to create functions separate from event listeners (i.e. when it may need to be called for both click events and touch events).
