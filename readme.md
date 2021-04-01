@@ -297,3 +297,19 @@ Also learned about mouse properties. I still want to just use libraries lol, but
 ### 28 - Video Speed Controller UI
 
 Not sure if I would ever use this, but it is helpful to connect the dots and get more practice with using math to calculate offsets. Also helpful to get more practice for when and how to create functions separate from event listeners (i.e. when it may need to be called for both click events and touch events).
+
+### 29 - Countdown Timer
+
+Really fun and useful! Learned about translating back and forth between minutes, milliseconds, seconds, and 12/24 hour time.
+
+Other helpful functions:
+- parseInt()
+- clearInterval()
+
+If I wanted to take it a step further, I would add a animation, sound, or alert for the end of the timer.
+
+Or even see if I could connect it to a playlist on Youtube, Soundcloud, Spotify, or Bandcamp to play music while the timer is going // with a switch to determine if the sound is for the timer going on or to determine if the sound is for the timer going off
+
+Or I could make it as a meditation timer with a bell!!! This is actually something that would be really useful for me, because I don't like the existing meditation timers very much.
+
+Or I could make it specifically for the creative co-working sessions at Inner Play --- that exact use case would be helpful : ) 
