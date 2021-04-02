@@ -1,47 +1,27 @@
 var gulp = require('gulp')
+var uglify = require('gulp-uglify')
 
 // css
-var cleanCss = require('gulp-clean-css')
-var postcss = require('gulp-postcss')
-var sourcemaps = require('gulp-sourcemaps')
-var concat = require('gulp-concat')
+var sass = require('gulp-sass')
+var autoprefixer = require('gulp-autoprefixer')
+var cleanCSS = require('gulp-clean-css')
 
 // browser refresh
 var browserSync = require('browser-sync')
 
-// images
-var imagemin = require('gulp-imagemin')
-
 // github
 var ghpages = require('gh-pages')
+const task = require('gulp')
 
-gulp.task('css', function() {
-    return gulp.src([
-        'src/css/reset.css',
-        'src/css/typography.css',
-        'src/css/main.css'
-    ])
-    .pipe(sourcemaps.init())
-    .pipe(
-        postcss([
-            require('autoprefixer'),
-            require('postcss-preset-env'),
-            require('postcss-include'),
-            require('postcss-nesting')({
-                stage: 1, 
-                browers: ['IE 11', 'last 2 versions']
-            })
-        ])
-    )
-    .pipe(concat('main.css'))
-    .pipe(
-            cleanCss({
-                compatibility: 'ie8'
-            })
-        )
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest("dist"))
-    .pipe(browserSync.stream())
+gulp.task('sass', function() {
+    return gulp.src("src/main.sass")
+      .pipe(sass({
+        errLogToConsole: true,
+        outputStyle: 'expanded',
+        includePaths: require('node-normalize-scss').includePaths
+      }).on('error', sass.logError))
+      .pipe(autoprefixer())
+      .pipe(gulp.dest("./dist"))
 })
 
 gulp.task('html', function(){
@@ -49,15 +29,21 @@ gulp.task('html', function(){
     .pipe(gulp.dest('dist'))
 })
 
-gulp.task('fonts', function(){
-    return gulp.src('src/fonts/*')
-        .pipe(gulp.dest('dist/fonts'))
+gulp.task('js', function() {
+    return gulp.src('src/*.js')
+    .pipe(gulp.dest('dist'))
 })
 
-gulp.task('images', function(){
-    return gulp.src('src/img/*')
-        .pipe(imagemin())
-        .pipe(gulp.dest('dist/img'))   
+gulp.task('miniJS', function () {
+    return gulp.src("dist/main.js")
+      .pipe(uglify())
+      .pipe(gulp.dest("dist"));
+})
+
+gulp.task('miniCSS', function () {
+    return gulp.src("dist/main.css")
+      .pipe(cleanCSS())
+      .pipe(gulp.dest('dist'));
 })
 
 gulp.task('watch', function() {
@@ -68,15 +54,13 @@ gulp.task('watch', function() {
         }
     })
 
-
     gulp.watch('src/index.html', gulp.series('html')).on("change", browserSync.reload)
-    gulp.watch('src/css/*', gulp.series('css'))
-    gulp.watch('src/fonts/*', gulp.series('fonts'))
-    gulp.watch('src/img/*', gulp.series('images'))
+    gulp.watch('src/main.sass', gulp.series('sass'))
+    gulp.watch('src/main.js', gulp.series('js'))
 })
 
 gulp.task('deploy', function() {
     ghpages.publish("dist")
 })
 
-gulp.task('default', gulp.parallel('html', 'css', 'fonts', 'images', 'watch'))
+gulp.task('default', gulp.parallel('html', 'sass', 'js', 'miniCSS', 'miniJS', 'watch'))

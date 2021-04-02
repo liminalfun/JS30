@@ -12,14 +12,12 @@
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
-    "postcss-include": "^0.3.1",
-    "postcss-preset-env": "^6.7.0"
+    "node-normalize-scss": "^8.1.2"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-postcss": "^9.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "postcss-nesting": "^7.0.1"
   },
