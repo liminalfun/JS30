@@ -21,42 +21,42 @@ window.onload = addContent;
 const data = [
   {
     title: "JavaScript Drum Kit",
-    url: "01 - JavaScript Drum Kit/index.html",
-    img: "01 - JavaScript Drum Kit/image/01_port.jpg"
+    url: "01_drum/index.html",
+    img: "img/01.jpg"
   },
   {
     title: "JS and CSS Clock",
-    url: "02 - JS and CSS Clock/index.html",
-    img: "02 - JS and CSS Clock/image/02_port.jpg"
+    url: "02_clock/index.html",
+    img: "img/02.jpg"
   },
   {
     title: "Update CSS Variables with JS",
-    url: "03 - CSS Variables/index.html",
-    img: "03 - CSS Variables/image/03_port.jpg"
+    url: "03_cssvar/index.html",
+    img: "img/03.jpg"
   },
   {
     title: "Flex Panel Gallery",
-    url: "05 - Flex Panel Gallery/index.html",
-    img: "05 - Flex Panel Gallery/image/05_port.jpg"
+    url: "05_flex/index.html",
+    img: "img/05.jpg"
   },
   {
     title: "Type Ahead",
-    url: "06 - Type Ahead/index.html",
-    img: "06 - Type Ahead/image/06_port.jpg"
+    url: "06_type/index.html",
+    img: "img/06.jpg"
   },
   {
     title: "HTML5 Canvas",
-    url: "08 - Fun with HTML5 Canvas/index.html",
-    img: "08 - Fun with HTML5 Canvas/image/08_port.jpg"
+    url: "08_canvas/index.html",
+    img: "img/08.jpg"
   },
   {
     title: "Hold Shift and Check Checkboxes",
-    url: "10 - Hold Shift and Check Checkboxes/index.html",
-    img: "10 - Hold Shift and Check Checkboxes/image/10_port.jpg"
+    url: "10_check/index.html",
+    img: "img/10.jpg"
   },
   {
     title: "Custom Video Player",
-    url: "11 - Custom Video Player/index.html",
+    url: "11_vid/index.html",
     img: "11 - Custom Video Player/image/11_port.jpg"
   },
   {
