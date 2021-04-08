@@ -61,72 +61,77 @@ const data = [
   },
   {
     title: "Key Sequence Detection",
-    url: "12 - Key Sequence Detection/index.html",
+    url: "12_keyseq/index.html",
     img: "12 - Key Sequence Detection/image/12_port.jpg"
   },
   {
     title: "Slide in on Scroll",
-    url: "13 - Slide in on Scroll/index.html",
+    url: "13_slide/index.html",
     img: "13 - Slide in on Scroll/image/13_port.jpg"
   },
   {
     title: "Local Storage",
-    url: "15 - LocalStorage/index.html",
+    url: "15_localstorage/index.html",
     img: "15 - LocalStorage/image/14_port.jpg"
   },
   {
     title: "Mouse Move Shadows",
-    url: "16 - Mouse Move Shadow/index.html",
+    url: "16_mousemove/index.html",
     img: "16 - Mouse Move Shadow/image/16_port.jpg"
   },
   {
     title: "Webcam Fun",
-    url: "19 - Webcam Fun/index.html",
+    url: "19_webcam/index.html",
     img: "19 - Webcam Fun/image/19_port.jpg"
   },
   {
     title: "Speech Detection",
-    url: "20 - Speech Detection/index.html",
+    url: "20_speech/index.html",
     img: "20 - Speech Detection/image/20_port.jpg"
   },
   {
     title: "Follow Along Link Highlighter",
-    url: "22 - Follow Along Link Highlighter/index.html",
+    url: "21_geolocation/index.html",
+    img: "22 - Follow Along Link Highlighter/image/22_port.jpg"
+  },
+  {
+    title: "Follow Along Link Highlighter",
+    url: "22_followalong/index.html",
     img: "22 - Follow Along Link Highlighter/image/22_port.jpg"
   },
   {
     title: "Speech Synthesis",
-    url: "23 - Speech Synthesis/index.html",
+    url: "23_speechsynth/index.html",
     img: "23 - Speech Synthesis/image/23_port.jpg"
   },
   {
     title: "Sticky Nav & Parallax",
-    url: "24 - Sticky Nav/index.html",
+    url: "24_stickynav/index.html",
     img: "24 - Sticky Nav/image/24_port.jpg"
   },
   {
     title: "Stripe Follow Along Nav",
-    url: "26 - Stripe Follow Along Nav/index.html",
+    url: "26_followalongnav/index.html",
     img: "26 - Stripe Follow Along Nav/image/26_port.jpg"
   },
   {
     title: "Click and Drag",
-    url: "27 - Click and Drag/index.html",
+    url: "27_clickdrag/index.html",
     img: "27 - Click and Drag/image/27_port.jpg"
   },
   {
     title: "Video Speed Controller",
-    url: "28 - Video Speed Controller/index.html",
+    url: "28_vidspeed/index.html",
     img: "28 - Video Speed Controller/image/28_port.jpg"
   },
   {
     title: "Countdown Timer",
-    url: "29 - Countdown Timer/index.html",
+    url: "29_countdown/index.html",
     img: "29 - Countdown Timer/image/29_port.jpg"
   },
   {
     title: "Whack A Mole",
-    url: "30 - Whack A Mole/index.html",
+    url: "30_whackamole/index.html",
     img: "30 - Whack A Mole/image/30_port.jpg"
   }
 ];
