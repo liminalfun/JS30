@@ -34,7 +34,7 @@ function paintToCanvas() {
 
         // pixels = greenScreen(pixels);
         // // put the pixels back
-        // ctx.putImageData(pixels, 0, 0);
+        ctx.putImageData(pixels, 0, 0);
     }, 16); // 16ms, can play with it depending on the machine
 }
 
