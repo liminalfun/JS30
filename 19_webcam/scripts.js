@@ -32,7 +32,7 @@ function paintToCanvas() {
         // pixels = rgbSplit(pixels);
         // ctx.globalAlpha = 0.1;
 
-        pixels = greenScreen(pixels);
+        pixels = rbgSplit(pixels);
         // put the pixels back
         ctx.putImageData(pixels, 0, 0);
     }, 16); // 16ms, can play with it depending on the machine
