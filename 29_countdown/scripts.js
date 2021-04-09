@@ -2,6 +2,8 @@ let countdown; // global variable that will live in the window
 const timerDisplay = document.querySelector('.display__time-left');
 const endTime = document.querySelector('.display__end-time');
 const buttons = document.querySelectorAll('[data-time]');
+const audio = new Audio("singing-bowl.mp3");
+let time = 5;
 
 function timer(seconds) {
     // clear any existing timers
@@ -18,6 +20,7 @@ function timer(seconds) {
         // check if we should stop it
         if(secondsLeft < 0) {
             clearInterval(countdown);
+            endTimer();
             return;
         }
         // display it
@@ -45,11 +48,21 @@ function startTimer() {
     timer(seconds);
 }
 
+function endTimer(e) {
+    audio.play();    
+    time = 5;
+}
+
 buttons.forEach(button => button.addEventListener('click', startTimer));
     document.customForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    const mins = this.minutes.value;
-    console.log(mins);
-    timer(mins * 60);
-    this.reset();
-});
+        // Add audio permissions
+        audio.play().then(() => { // pause directly
+            audio.pause();
+            audio.currentTime = 0;
+        });
+        e.preventDefault();
+        const mins = this.minutes.value;
+        console.log(mins);
+        timer(mins * 60);
+        this.reset();
+    });
